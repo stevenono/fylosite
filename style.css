@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li, a, button {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #001041;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;
+    margin: 5px;
+}
+
+.menu{
+    list-style-type: none;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.first_session{
+    display: flex;
+}
+
+.first-photo{
+    width: 70%;
+}
